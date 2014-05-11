@@ -3,29 +3,5 @@
 [0m[[0minfo[0m] [0m[32m- one plus one is three?[0m[0m
 [0m[[0minfo[0m] [0m[32m- details why one plus one is not three[0m[0m
 [0m[[0minfo[0m] [0m[32m- intNotZero throws an exception if its argument is 0[0m[0m
-[0m[[0minfo[0m] [0m[31m- sum of a few numbers *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:252)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.Lists$.sum(Lists.scala:26)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$5.apply$mcV$sp(ListsSuite.scala:113)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$5.apply(ListsSuite.scala:113)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$5.apply(ListsSuite.scala:113)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuite$$anon$1.apply(FunSuite.scala:1265)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.Suite$class.withFixture(Suite.scala:1974)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.ListsSuite.withFixture(ListsSuite.scala:27)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuite$class.invokeWithFixture$1(FunSuite.scala:1262)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
-[0m[[0minfo[0m] [0m[31m- max of a few numbers *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
-[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:252)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.Lists$.max(Lists.scala:41)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$6.apply$mcV$sp(ListsSuite.scala:117)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$6.apply(ListsSuite.scala:117)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$6.apply(ListsSuite.scala:117)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuite$$anon$1.apply(FunSuite.scala:1265)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.Suite$class.withFixture(Suite.scala:1974)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at example.ListsSuite.withFixture(ListsSuite.scala:27)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuite$class.invokeWithFixture$1(FunSuite.scala:1262)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuite$$anonfun$runTest$1.apply(FunSuite.scala:1271)[0m[0m
-[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of a few numbers[0m[0m

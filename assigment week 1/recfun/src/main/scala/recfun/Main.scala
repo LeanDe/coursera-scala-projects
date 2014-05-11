@@ -15,9 +15,9 @@ object Main {
    */
   def pascal(c: Int, r: Int): Int = {
     if (c == r || c == 0) {
-      return 1
+      1
     } else {
-      return pascal(c, (r - 1)) + pascal((c - 1), (r - 1))
+      pascal(c, (r - 1)) + pascal((c - 1), (r - 1))
     }
   }
 
@@ -27,25 +27,21 @@ object Main {
   def balance(chars: List[Char]): Boolean = {
     def new_balance(count: Int, chars: List[Char]): Boolean = {
       if (chars.isEmpty) {
-        return (count == 0);
-      }
-
-      if (chars.head == '(') {
-        return (new_balance(count + 1, chars.tail));
-      }
-
-      if (chars.head == ')') {
+        (count == 0);
+      } else if (chars.head == '(') {
+        (new_balance(count + 1, chars.tail));
+      } else if (chars.head == ')') {
         if (count == 0) {
-          return false;
+          false;
         } else {
-          return (new_balance(count - 1, chars.tail));
+          (new_balance(count - 1, chars.tail));
         }
+      } else {
+        (new_balance(count, chars.tail))
       }
-
-      return (new_balance(count, chars.tail));
     }
 
-    return new_balance(0, chars);
+    new_balance(0, chars);
   }
 
   /**
@@ -53,11 +49,11 @@ object Main {
    */
   def countChange(money: Int, coins: List[Int]): Int = {
     if (money == 0) {
-      return 1;
+      1
     } else if (money < 0 || coins.isEmpty) {
-      return 0;
+      0
     } else if (money <= 0 && !coins.isEmpty) {
-      return 0;
+      0
     } else {
       countChange(money, coins.tail) + countChange(money - coins.head, coins)
     }
