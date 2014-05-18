@@ -12,6 +12,9 @@ object funcfun {
   x.sub(y).sub(z)                                 //> res3: week2.Rational = -79/42
 
   y.add(y)                                        //> res4: week2.Rational = 10/7
+  
+  y add y                                         //> res5: week2.Rational = 10/7
+  
 }
 
 class Rational(x: Int, y: Int) {

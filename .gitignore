@@ -20,11 +20,16 @@
 /assigment week 0/example/.cache
 /assigment week 0/example/.classpath
 
-assigment week 0/example/project/project/target/streams/$global/update/$global/out
-assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/GradingFeedback$.class
-assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/ProgFunBuild$$anonfun$createHandoutSetting$1$$anonfun$apply$11.class
-assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/ProgFunBuild$$anonfun$gradeProjectDetailsSetting$1.class
-assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/ProgFunBuild$$anonfun$submitSetting$1$$anonfun$apply$1.class
-assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/ScalaTestRunner$LimitedStringBuffer.class
-assigment week 0/example/project/target/streams/$global/update/$global/out
-assigment week 0/example/project/target/streams/compile/compile/$global/out
+/assigment week 0/example/project/project/target/streams/$global/update/$global/out
+/assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/GradingFeedback$.class
+/assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/ProgFunBuild$$anonfun$createHandoutSetting$1$$anonfun$apply$11.class
+/assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/ProgFunBuild$$anonfun$gradeProjectDetailsSetting$1.class
+/assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/ProgFunBuild$$anonfun$submitSetting$1$$anonfun$apply$1.class
+/assigment week 0/example/project/target/scala-2.9.2/sbt-0.12/classes/ScalaTestRunner$LimitedStringBuffer.class
+/assigment week 0/example/project/target/streams/$global/update/$global/out
+/assigment week 0/example/project/target/streams/compile/compile/$global/out
+
+/assigment week 2/funsets/.cache
+/assigment week 2/funsets/target
+/assigment week 2/funsets/project/target
+/assigment week 2/funsets/project/project/target

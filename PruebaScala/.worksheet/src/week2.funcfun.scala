@@ -11,7 +11,10 @@ object funcfun {;import org.scalaide.worksheet.runtime.library.WorksheetSupport.
 
   x.sub(y).sub(z);System.out.println("""res3: week2.Rational = """ + $show(res$3));$skip(13); val res$4 = 
 
-  y.add(y);System.out.println("""res4: week2.Rational = """ + $show(res$4))}
+  y.add(y);System.out.println("""res4: week2.Rational = """ + $show(res$4));$skip(13); val res$5 = 
+  
+  y add y;System.out.println("""res5: week2.Rational = """ + $show(res$5))}
+  
 }
 
 class Rational(x: Int, y: Int) {
